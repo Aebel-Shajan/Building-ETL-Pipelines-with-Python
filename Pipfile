@@ -12,6 +12,7 @@ matplotlib = "*"
 urllib3 = "*"
 certifi = "*"
 lxml = "*"
+chapters = {file = "."}
 
 [dev-packages]
 

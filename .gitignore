@@ -10,3 +10,10 @@
 *.iml
 *.ipr
 *.iws
+
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/

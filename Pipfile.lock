@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "ee7064cd2e8d3eaf0d9faec3b972aba147a7b4f3d1b93f13d05fbdb62afae863"
+            "sha256": "83fbfb092804a270407519b9e923c42e68e92c7c2146aaf0e344db6e9699b55b"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -41,6 +41,9 @@
             "index": "pypi",
             "markers": "python_version >= '3.6'",
             "version": "==2025.4.26"
+        },
+        "chapters": {
+            "file": "."
         },
         "comm": {
             "hashes": [
