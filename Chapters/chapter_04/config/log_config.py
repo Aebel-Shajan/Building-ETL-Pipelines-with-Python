@@ -1,5 +1,9 @@
-# Logging is an importent part of code to catch errors or exceptions. Let's introduce logging to make our code debuggable. It's a good idea to creat a logfile. A logfile can be used for many purpose including but not limited to anayalyizng any faiure or finding bugs in the code. Let's create an universal logging config that can be used in all python modules without writing the boilerplate codes.
-
+# Logging is an importent part of code to catch errors or exceptions. 
+# Let's introduce logging to make our code debuggable. 
+# It's a good idea to creat a logfile. 
+# A logfile can be used for many purpose including but not limited to anayalyizng any 
+# faiure or finding bugs in the code. Let's create an universal logging config that can
+# be used in all python modules without writing the boilerplate codes.
 # In[51]:
 
 

@@ -1,0 +1,37 @@
+2025-05-05 11:07:47,030 [INFO] root: Extracting data from different sources
+2025-05-05 11:07:47,173 [INFO] root: data/yellow_tripdata_2022-01.parquet : extracted 2463931 records from the parguet file
+2025-05-05 11:07:47,176 [INFO] root: data/h9gi-nx95.csv : extracted 500 records from the csv file
+2025-05-05 11:07:47,177 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): data.cityofnewyork.us:443
+2025-05-05 11:07:49,217 [DEBUG] urllib3.connectionpool: https://data.cityofnewyork.us:443 "GET /resource/h9gi-nx95.json?$limit=500 HTTP/1.1" 200 None
+2025-05-05 11:07:49,218 [INFO] root: 200 - ok : while invoking the api https://data.cityofnewyork.us/resource/h9gi-nx95.json?$limit=500
+2025-05-05 11:07:49,234 [INFO] root: 200- extracted 500 records from the csv file
+2025-05-05 11:07:49,259 [INFO] root: data/movies.sqlite- read 4773 records from the table: movies
+2025-05-05 11:07:49,510 [INFO] root: https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(nominal)- read 210 records from the page: https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(nominal)
+2025-05-05 11:11:12,724 [INFO] root: Extracting data from different sources
+2025-05-05 11:11:12,873 [INFO] root: data/yellow_tripdata_2022-01.parquet : extracted 2463931 records from the parguet file
+2025-05-05 11:11:12,877 [INFO] root: data/h9gi-nx95.csv : extracted 500 records from the csv file
+2025-05-05 11:11:12,878 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): data.cityofnewyork.us:443
+2025-05-05 11:11:14,090 [DEBUG] urllib3.connectionpool: https://data.cityofnewyork.us:443 "GET /resource/h9gi-nx95.json?$limit=500 HTTP/1.1" 200 None
+2025-05-05 11:11:14,091 [INFO] root: 200 - ok : while invoking the api https://data.cityofnewyork.us/resource/h9gi-nx95.json?$limit=500
+2025-05-05 11:11:14,105 [INFO] root: 200- extracted 500 records from the csv file
+2025-05-05 11:11:14,123 [INFO] root: data/movies.sqlite- read 4773 records from the table: movies
+2025-05-05 11:11:14,405 [INFO] root: https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(nominal)- read 210 records from the page: https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(nominal)
+2025-05-05 11:11:44,033 [INFO] root: Extracting data from different sources
+2025-05-05 11:12:32,033 [INFO] root: Extracting data from different sources
+2025-05-05 11:12:32,171 [INFO] root: data/yellow_tripdata_2022-01.parquet : extracted 2463931 records from the parguet file
+2025-05-05 11:12:32,175 [INFO] root: data/h9gi-nx95.csv : extracted 500 records from the csv file
+2025-05-05 11:12:32,175 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): data.cityofnewyork.us:443
+2025-05-05 11:12:33,401 [DEBUG] urllib3.connectionpool: https://data.cityofnewyork.us:443 "GET /resource/h9gi-nx95.json?$limit=500 HTTP/1.1" 200 None
+2025-05-05 11:12:33,402 [INFO] root: 200 - ok : while invoking the api https://data.cityofnewyork.us/resource/h9gi-nx95.json?$limit=500
+2025-05-05 11:12:33,417 [INFO] root: 200- extracted 500 records from the csv file
+2025-05-05 11:12:33,440 [INFO] root: data/movies.sqlite- read 4773 records from the table: movies
+2025-05-05 11:12:33,687 [INFO] root: https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(nominal)- read 210 records from the page: https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(nominal)
+2025-05-05 11:13:09,393 [INFO] root: Extracting data from different sources
+2025-05-05 11:13:09,523 [INFO] root: data/yellow_tripdata_2022-01.parquet : extracted 2463931 records from the parguet file
+2025-05-05 11:13:09,527 [INFO] root: data/h9gi-nx95.csv : extracted 500 records from the csv file
+2025-05-05 11:13:09,527 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): data.cityofnewyork.us:443
+2025-05-05 11:13:10,543 [DEBUG] urllib3.connectionpool: https://data.cityofnewyork.us:443 "GET /resource/h9gi-nx95.json?$limit=500 HTTP/1.1" 200 None
+2025-05-05 11:13:10,544 [INFO] root: 200 - ok : while invoking the api https://data.cityofnewyork.us/resource/h9gi-nx95.json?$limit=500
+2025-05-05 11:13:10,559 [INFO] root: 200- extracted 500 records from the csv file
+2025-05-05 11:13:10,585 [INFO] root: data/movies.sqlite- read 4773 records from the table: movies
+2025-05-05 11:13:10,865 [INFO] root: https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(nominal)- read 210 records from the page: https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(nominal)

@@ -9,8 +9,9 @@ import json
 import sqlite3
 import pandas as pd
 import logging
+import os
+from Chapters.chapter_04.config.log_config import log_config
 
-import logging
 
 # define top level module logger
 logger = logging.getLogger(__name__)
@@ -79,10 +80,10 @@ def source_data_from_webpage(web_page_url,matching_keyword):
     return df_html
 
 def extractd_data():
-        parquet_file_name = "yellow_tripdata_2022-01.parquet"
-        csv_file_name = "h9gi-nx95.csv"
+        parquet_file_name = "data/yellow_tripdata_2022-01.parquet"
+        csv_file_name = "data/h9gi-nx95.csv"
         api_endpoint = "https://data.cityofnewyork.us/resource/h9gi-nx95.json?$limit=500"
-        db_name = "movies.sqlite"
+        db_name = "data/movies.sqlite"
         table_name = "movies"
         web_page_url = "https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(nominal)"
         matching_keyword = "by country"
@@ -97,3 +98,27 @@ def extractd_data():
                                                     source_data_from_table(db_name, table_name),
                                                     source_data_from_webpage(web_page_url,matching_keyword))
         return df_parquet,df_csv,df_api,df_table,df_html
+
+
+
+def check_correct_folder(expected_folder_name: str):
+    current_folder_name = os.path.basename(os.getcwd())
+
+    if current_folder_name != expected_folder_name:
+        raise RuntimeError(
+            f"Script must be run from folder '{expected_folder_name}', "
+            f"but it was run from '{current_folder_name}'."
+        )
+
+    
+if __name__ == "__main__":
+    logger = logging.getLogger()
+    log_config()
+    console_handler = logging.StreamHandler()
+    console_handler.setLevel(logging.DEBUG)
+    console_handler.setFormatter(logger.handlers[0].formatter)
+    logger.addHandler(console_handler)
+    logger.info("Extracting data from different sources")
+    check_correct_folder("Building-ETL-Pipelines-with-Python")
+    os.chdir("./Chapters/chapter_04")
+    extractd_data()
